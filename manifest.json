@@ -1,0 +1,272 @@
+{
+  "version": 1,
+  "groups": [
+    {
+      "id": "examples",
+      "title": "Examples",
+      "examples": [
+        {
+          "id": "sentinel-2-map-layer",
+          "title": "Sentinel-2 map layer",
+          "summary": "Adds NDVI, mosaics Sentinel-2, and draws a true-color layer.",
+          "path": "catalog/examples/sentinel-2-map-layer.ee.js",
+          "filename": "sentinel-2-map-layer.ee.js"
+        },
+        {
+          "id": "collection-summary",
+          "title": "Collection summary",
+          "summary": "Prints count, scene IDs, cloud values, and first image.",
+          "path": "catalog/examples/collection-summary.ee.js",
+          "filename": "collection-summary.ee.js"
+        },
+        {
+          "id": "ndvi-bands",
+          "title": "NDVI bands",
+          "summary": "Maps over images, adds NDVI, and selects derived bands.",
+          "path": "catalog/examples/ndvi-bands.ee.js",
+          "filename": "ndvi-bands.ee.js"
+        },
+        {
+          "id": "plotly-and-ui-chart",
+          "title": "Plotly and ui.Chart",
+          "summary": "Opens native Plotly and Earth Engine time-series tabs with interactive callbacks.",
+          "path": "catalog/examples/plotly-and-ui-chart.ee.js",
+          "filename": "plotly-and-ui-chart.ee.js"
+        },
+        {
+          "id": "map-layer-opacity",
+          "title": "Map layer opacity",
+          "summary": "Adds visible and hidden layers with separate opacity values.",
+          "path": "catalog/examples/map-layer-opacity.ee.js",
+          "filename": "map-layer-opacity.ee.js"
+        },
+        {
+          "id": "animated-wind-field",
+          "title": "Animated wind field",
+          "summary": "Fetches ERA5 U/V values at display time and renders particles or arrows.",
+          "path": "catalog/examples/animated-wind-field.ee.js",
+          "filename": "animated-wind-field.ee.js"
+        },
+        {
+          "id": "local-folder-downloads",
+          "title": "Local folder downloads",
+          "summary": "Registers a tiny elevation raster and three-point table for local-download testing.",
+          "path": "catalog/examples/local-downloads.ee.js",
+          "filename": "local-downloads.ee.js"
+        }
+      ]
+    },
+    {
+      "id": "map-experiments",
+      "title": "Map Experiments",
+      "examples": [
+        {
+          "id": "sentinel-2-single-orbit-globe",
+          "title": "Sentinel-2 orbit globe",
+          "summary": "Recovered globe-view script using Map.setViewStyle from the dynamic map branch.",
+          "path": "catalog/map-experiments/sentinel-2-orbit-globe.ee.js",
+          "filename": "sentinel-2-orbit-globe.ee.js"
+        },
+        {
+          "id": "multiple-maps",
+          "title": "Multiple maps",
+          "summary": "Recovered ui.Map demo that opens separate Alps and Patagonia map tabs.",
+          "path": "catalog/map-experiments/multiple-maps.ee.js",
+          "filename": "multiple-maps.ee.js"
+        },
+        {
+          "id": "innsbruck-3d-terrain",
+          "title": "Innsbruck 3D terrain",
+          "summary": "Recovered SCENE3D GLO30 terrain and Sentinel-2 imagery preset.",
+          "path": "catalog/map-experiments/innsbruck-3d-terrain.ee.js",
+          "filename": "innsbruck-3d-terrain.ee.js"
+        },
+        {
+          "id": "torres-del-paine-globe-terrain",
+          "title": "Torres del Paine terrain",
+          "summary": "Recovered globe terrain scene with Sentinel-2 and Landsat 9 imagery.",
+          "path": "catalog/map-experiments/torres-del-paine-terrain.ee.js",
+          "filename": "torres-del-paine-terrain.ee.js"
+        },
+        {
+          "id": "himalaya-globe-terrain",
+          "title": "Himalaya terrain",
+          "summary": "Recovered Everest globe terrain scene with Sentinel-2 and Landsat 9 imagery.",
+          "path": "catalog/map-experiments/himalaya-terrain.ee.js",
+          "filename": "himalaya-terrain.ee.js"
+        }
+      ]
+    },
+    {
+      "id": "python-and-interop",
+      "title": "Python & Interop",
+      "examples": [
+        {
+          "id": "python-scientific-smoke",
+          "title": "NumPy and Matplotlib",
+          "summary": "Computes a NumPy array and opens a static Matplotlib figure tab.",
+          "path": "catalog/python-and-interop/numpy-matplotlib-smoke.ee.py",
+          "filename": "numpy-matplotlib-smoke.ee.py"
+        },
+        {
+          "id": "python-earth-engine-smoke",
+          "title": "Earth Engine Python",
+          "summary": "Queries Earth Engine through Python and adds a layer through the shared Map bridge.",
+          "path": "catalog/python-and-interop/earth-engine-python-smoke.ee.py",
+          "filename": "earth-engine-python-smoke.ee.py"
+        },
+        {
+          "id": "python-plotly",
+          "title": "Plotly Python",
+          "summary": "Uses Plotly Express and an Earth Engine-backed ui.Plotly figure.",
+          "path": "catalog/python-and-interop/plotly-python.ee.py",
+          "filename": "plotly-python.ee.py"
+        },
+        {
+          "id": "interop-javascript-setup",
+          "title": "1. JavaScript publishes bindings",
+          "summary": "Publishes a JavaScript function and variable into the workspace registry.",
+          "path": "catalog/python-and-interop/interop-1-javascript.ee.js",
+          "filename": "interop-1-javascript.ee.js"
+        },
+        {
+          "id": "interop-python-round-trip",
+          "title": "2. Python consumes and publishes",
+          "summary": "Calls JavaScript from Python, then publishes Python values and a function.",
+          "path": "catalog/python-and-interop/interop-2-python.ee.py",
+          "filename": "interop-2-python.ee.py"
+        },
+        {
+          "id": "interop-javascript-verify",
+          "title": "3. JavaScript verifies Python",
+          "summary": "Calls the Python function and reads Python values back in JavaScript.",
+          "path": "catalog/python-and-interop/interop-3-javascript.ee.js",
+          "filename": "interop-3-javascript.ee.js"
+        }
+      ]
+    },
+    {
+      "id": "tests",
+      "title": "Tests",
+      "examples": [
+        {
+          "id": "local-collections-smoke",
+          "title": "Collection operations",
+          "summary": "Exercises local filter, date range, sort, limit, and aggregate.",
+          "path": "catalog/tests/collection-operations.ee.js",
+          "filename": "collection-operations.ee.js"
+        },
+        {
+          "id": "console-rendering-smoke",
+          "title": "Console rendering",
+          "summary": "Checks scalar, array, and nested object display.",
+          "path": "catalog/tests/console-rendering.ee.js",
+          "filename": "console-rendering.ee.js"
+        },
+        {
+          "id": "feature-collection-smoke",
+          "title": "FeatureCollection summary",
+          "summary": "Checks local FeatureCollection filtering and summaries.",
+          "path": "catalog/tests/feature-collection-summary.ee.js",
+          "filename": "feature-collection-summary.ee.js"
+        }
+      ]
+    },
+    {
+      "id": "plots",
+      "title": "Charts & Plots",
+      "examples": [
+        {
+          "id": "standalone-plotly-javascript",
+          "title": "Plotly JavaScript",
+          "summary": "Creates a native Plotly figure with a click listener and incremental update.",
+          "path": "catalog/standalone/plotly-javascript.ee.js",
+          "filename": "plotly-javascript.ee.js"
+        },
+        {
+          "id": "standalone-plotly-python",
+          "title": "Plotly.py graph objects",
+          "summary": "Creates a signed-out Plotly.py graph-object figure.",
+          "path": "catalog/standalone/plotly-python.ee.py",
+          "filename": "plotly-python.ee.py"
+        },
+        {
+          "id": "ui-chart-time-axis",
+          "title": "ui.Chart time axis",
+          "summary": "Converts Earth Engine epoch milliseconds into a readable Plotly date axis.",
+          "path": "catalog/standalone/ui-chart-time-axis.ee.js",
+          "filename": "ui-chart-time-axis.ee.js"
+        },
+        {
+          "id": "ui-chart-earth-engine",
+          "title": "Earth Engine ui.Chart",
+          "summary": "Demonstrates an authenticated image series, loading state, and click callback.",
+          "path": "catalog/standalone/ui-chart-earth-engine.ee.js",
+          "filename": "ui-chart-earth-engine.ee.js"
+        },
+        {
+          "id": "plotly-earth-engine-python",
+          "title": "Earth Engine Plotly Python",
+          "summary": "Builds Python ui.Plotly content from nested Earth Engine values and registers an event.",
+          "path": "catalog/standalone/plotly-earth-engine.ee.py",
+          "filename": "plotly-earth-engine.ee.py"
+        }
+      ]
+    },
+    {
+      "id": "modules",
+      "title": "Modules",
+      "examples": [
+        {
+          "id": "module-python-import-javascript",
+          "title": "Python imports JavaScript",
+          "summary": "Imports the adjacent calculator module with Python import syntax.",
+          "path": "catalog/modules/use_calculator_import.ee.py",
+          "filename": "use_calculator_import.ee.py"
+        },
+        {
+          "id": "module-python-require-javascript",
+          "title": "Python requires JavaScript",
+          "summary": "Loads the adjacent calculator module with require().",
+          "path": "catalog/modules/use_calculator_require.ee.py",
+          "filename": "use_calculator_require.ee.py"
+        },
+        {
+          "id": "module-javascript-requires-python",
+          "title": "JavaScript requires Python",
+          "summary": "Calls exported functions from the adjacent Python statistics module.",
+          "path": "catalog/modules/js_requires_python.ee.js",
+          "filename": "js_requires_python.ee.js"
+        },
+        {
+          "id": "module-local-python-package",
+          "title": "Local Python package",
+          "summary": "Imports a namespace package from a literal relative repository root.",
+          "path": "catalog/modules/use_local_package.ee.py",
+          "filename": "use_local_package.ee.py"
+        },
+        {
+          "id": "module-remote-repository-paths",
+          "title": "Remote repository paths",
+          "summary": "Shows pinned GitHub and GitLab Python package roots.",
+          "path": "catalog/modules/remote_repository_paths.ee.py",
+          "filename": "remote_repository_paths.ee.py"
+        },
+        {
+          "id": "module-oeel-python",
+          "title": "OEEL from Python",
+          "summary": "Demonstrates a native GoogleSource OEEL import from Python.",
+          "path": "catalog/modules/oeel.ee.py",
+          "filename": "oeel.ee.py"
+        },
+        {
+          "id": "module-oeel-javascript",
+          "title": "OEEL from JavaScript",
+          "summary": "Demonstrates a native GoogleSource OEEL import from JavaScript.",
+          "path": "catalog/modules/oeel.ee.js",
+          "filename": "oeel.ee.js"
+        }
+      ]
+    }
+  ]
+}
