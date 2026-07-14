@@ -14,6 +14,9 @@ example only when a user opens it.
 - `scripts/validate-manifest.mjs` checks catalog metadata and referenced files
   without third-party dependencies.
 
+The **Studio basics** group contains the general map, collection, chart, and
+download entrypoints; focused examples remain in the named groups that follow.
+
 ## Validate changes
 
 Run the validator before pushing changes to `master`:

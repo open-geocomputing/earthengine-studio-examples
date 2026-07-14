@@ -3,7 +3,7 @@
   "groups": [
     {
       "id": "examples",
-      "title": "Examples",
+      "title": "Studio basics",
       "examples": [
         {
           "id": "sentinel-2-map-layer",
