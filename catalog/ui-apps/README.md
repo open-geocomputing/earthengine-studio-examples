@@ -11,7 +11,9 @@ These examples progress from a single printed widget to full App composition:
    leaving Studio's permanent main Map in place.
 4. `split-map-app.ee.js` composes two independent `ui.Map` widgets with
    `ui.SplitPanel`.
-5. `chart-dashboard.ee.js` embeds a Plotly chart and handles its click events in
+5. `linked-maps-app.ee.js` links two maps so panning or zooming either map keeps
+   both viewports synchronized.
+6. `chart-dashboard.ee.js` embeds a Plotly chart and handles its click events in
    the script Worker.
 
-All five are JavaScript-only and can open without loading the Python runtime.
+All six are JavaScript-only and can open without loading the Python runtime.

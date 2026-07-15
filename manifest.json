@@ -89,6 +89,13 @@
           "filename": "split-map-app.ee.js"
         },
         {
+          "id": "ui-apps-linked-maps",
+          "title": "Linked-map App",
+          "summary": "Synchronizes two App maps so panning or zooming either viewport moves both.",
+          "path": "catalog/ui-apps/linked-maps-app.ee.js",
+          "filename": "linked-maps-app.ee.js"
+        },
+        {
           "id": "ui-apps-chart-dashboard",
           "title": "Embedded chart dashboard",
           "summary": "Embeds a Plotly chart in an App and routes point clicks back to the Worker.",
