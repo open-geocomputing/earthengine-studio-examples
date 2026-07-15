@@ -15,7 +15,9 @@ example only when a user opens it.
   without third-party dependencies.
 
 The **Studio basics** group contains the general map, collection, chart, and
-download entrypoints; focused examples remain in the named groups that follow.
+download entrypoints. **UI Apps** contains progressively richer examples for
+interactive Console widgets, styled App pages, map overlays, split maps, and
+embedded charts; other focused examples remain in the named groups that follow.
 
 ## Validate changes
 

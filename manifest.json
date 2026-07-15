@@ -57,6 +57,47 @@
       ]
     },
     {
+      "id": "ui-apps",
+      "title": "UI Apps",
+      "examples": [
+        {
+          "id": "ui-apps-console-widgets",
+          "title": "Interactive Console widgets",
+          "summary": "Prints live UI controls in Console without opening an App.",
+          "path": "catalog/ui-apps/console-widgets.ee.js",
+          "filename": "console-widgets.ee.js"
+        },
+        {
+          "id": "ui-apps-styled-app",
+          "title": "Styled App and header",
+          "summary": "Builds an App with a page header, reusable classes, scoped CSS, and callbacks.",
+          "path": "catalog/ui-apps/styled-app.ee.js",
+          "filename": "styled-app.ee.js"
+        },
+        {
+          "id": "ui-apps-map-overlay",
+          "title": "Map overlay App",
+          "summary": "Adds interactive controls over an App map while preserving Studio's main Map.",
+          "path": "catalog/ui-apps/map-overlay-app.ee.js",
+          "filename": "map-overlay-app.ee.js"
+        },
+        {
+          "id": "ui-apps-split-map",
+          "title": "Split-map App",
+          "summary": "Composes two independent ui.Map widgets in a horizontal SplitPanel.",
+          "path": "catalog/ui-apps/split-map-app.ee.js",
+          "filename": "split-map-app.ee.js"
+        },
+        {
+          "id": "ui-apps-chart-dashboard",
+          "title": "Embedded chart dashboard",
+          "summary": "Embeds a Plotly chart in an App and routes point clicks back to the Worker.",
+          "path": "catalog/ui-apps/chart-dashboard.ee.js",
+          "filename": "chart-dashboard.ee.js"
+        }
+      ]
+    },
+    {
       "id": "map-experiments",
       "title": "Map Experiments",
       "examples": [
