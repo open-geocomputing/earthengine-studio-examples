@@ -13,7 +13,9 @@ These examples progress from a single printed widget to full App composition:
    `ui.SplitPanel`.
 5. `linked-maps-app.ee.js` links two maps so panning or zooming either map keeps
    both viewports synchronized.
-6. `chart-dashboard.ee.js` embeds a Plotly chart and handles its click events in
+6. `angled-split-panel-app.ee.js` uses Studio's optional angled wipe divider,
+   with live angle controls and linked maps underneath.
+7. `chart-dashboard.ee.js` embeds a Plotly chart and handles its click events in
    the script Worker.
 
-All six are JavaScript-only and can open without loading the Python runtime.
+All seven are JavaScript-only and can open without loading the Python runtime.

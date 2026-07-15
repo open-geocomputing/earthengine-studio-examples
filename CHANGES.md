@@ -2,9 +2,9 @@
 
 ## Unreleased
 
-- Added a UI Apps group with six runnable examples covering Console-only
-  widgets, scoped App headers and CSS, map overlays, independent and linked
-  split maps, and embedded chart callbacks.
+- Added a UI Apps group with seven runnable examples covering Console-only
+  widgets, scoped App headers and CSS, map overlays, independent, linked, and
+  angled split maps, and embedded chart callbacks.
 
 - Renamed the generic Examples group to Studio basics so the catalog hierarchy
   is clearer in Earth Engine Studio.

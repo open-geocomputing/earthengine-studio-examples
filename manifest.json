@@ -96,6 +96,13 @@
           "filename": "linked-maps-app.ee.js"
         },
         {
+          "id": "ui-apps-angled-split-panel",
+          "title": "Angled SplitPanel App",
+          "summary": "Uses Studio's draggable angled wipe to compare two linked maps.",
+          "path": "catalog/ui-apps/angled-split-panel-app.ee.js",
+          "filename": "angled-split-panel-app.ee.js"
+        },
+        {
           "id": "ui-apps-chart-dashboard",
           "title": "Embedded chart dashboard",
           "summary": "Embeds a Plotly chart in an App and routes point clicks back to the Worker.",
