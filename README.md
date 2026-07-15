@@ -23,8 +23,9 @@ examples remain in the named groups that follow.
 The **Map Experiments** group includes projection-aware globe examples for
 dynamic compute-pixel coloring and script-defined shader expressions. The
 **Animated wind field** Studio basics example demonstrates both arrow and
-particle vector-field renderers on the globe; toggle its layers to compare
-them without rerunning the script.
+particle vector-field renderers on the globe. Its arrows use the uniform
+equal-area distribution instead of a Mercator grid; toggle its layers to
+compare them without rerunning the script.
 
 ## Validate changes
 

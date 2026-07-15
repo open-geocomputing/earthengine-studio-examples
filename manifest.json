@@ -43,7 +43,7 @@
         {
           "id": "animated-wind-field",
           "title": "Animated wind field",
-          "summary": "Fetches ERA5 U/V values at display time and renders particles or arrows.",
+          "summary": "Renders ERA5 particles and equal-area globe arrows without polar clustering.",
           "path": "catalog/examples/animated-wind-field.ee.js",
           "filename": "animated-wind-field.ee.js"
         },

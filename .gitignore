@@ -8,3 +8,5 @@ coverage/
 catalog-validation-debug*.json
 globe-layer-debug*.json
 globe-layer-debug*.png
+uniform-arrow-debug*.json
+uniform-arrow-debug*.png

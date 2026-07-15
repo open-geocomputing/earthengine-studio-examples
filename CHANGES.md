@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+- Updated the globe wind arrows to use the uniform equal-area distribution,
+  preventing the Mercator grid from clustering arrows near the poles.
+
 - Added globe examples for dynamic compute-pixel rendering and constrained
   script-defined shader expressions, and updated the animated ERA5 wind example
   to demonstrate projection-aware arrows and particles on the globe.
