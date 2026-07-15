@@ -1,5 +1,5 @@
-// Animated 10 m wind from an Earth Engine U/V image snapshot.
-// Add a natural-color land surface first so the wind overlay has geographic context.
+// Projection-aware 10 m wind arrows and particles on the globe.
+// Use the layer drawer eyes to compare the two custom WebGL renderers.
 var landSurface = ee.ImageCollection("MODIS/061/MCD43A4")
   .filterDate("2024-06-28", "2024-07-04")
   .median()
@@ -19,7 +19,12 @@ var landWind = ee.ImageCollection("ECMWF/ERA5_LAND/HOURLY")
   .first()
   .select(["u_component_of_wind_10m", "v_component_of_wind_10m"]);
 
-Map.setCenter(11.4, 47.3, 6);
+Map.setViewStyle("GLOBE", {
+  stars: true,
+  atmosphere: true,
+  atmosphereBlend: 0.6
+});
+Map.setCenter(11.4, 32, 2.5);
 Map.addLayer(landSurface, {
   bands: [
     "Nadir_Reflectance_Band1",
@@ -60,7 +65,7 @@ var particleStyle = {
   trailLength: 100
 };
 
-// Coverage selector: use the layer drawer eyes to enable Global or Land.
-// Both remain available at display time without rerunning this script.
+// Coverage and renderer selector: toggle arrows or either particle layer.
+// All three remain available at display time without rerunning this script.
 Map.addLayer(landWind, particleStyle, "Wind source: ERA5-Land", false);
 Map.addLayer(globalWind, particleStyle, "Wind source: Global ERA5", true);

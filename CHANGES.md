@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+- Added globe examples for dynamic compute-pixel rendering and constrained
+  script-defined shader expressions, and updated the animated ERA5 wind example
+  to demonstrate projection-aware arrows and particles on the globe.
+
 - Added a UI Apps group with seven runnable examples covering Console-only
   widgets, scoped App headers and CSS, map overlays, independent, linked, and
   angled split maps, and embedded chart callbacks.

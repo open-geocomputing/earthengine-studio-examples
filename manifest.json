@@ -123,6 +123,20 @@
           "filename": "sentinel-2-orbit-globe.ee.js"
         },
         {
+          "id": "dynamic-compute-pixels-globe",
+          "title": "Dynamic computePixels globe",
+          "summary": "Renders raw Earth Engine pixels dynamically with a projection-aware palette on the globe.",
+          "path": "catalog/map-experiments/dynamic-compute-pixels-globe.ee.js",
+          "filename": "dynamic-compute-pixels-globe.ee.js"
+        },
+        {
+          "id": "custom-shader-globe",
+          "title": "Custom shader globe",
+          "summary": "Defines a constrained GLSL color expression in Earth Engine code and curves it over the globe.",
+          "path": "catalog/map-experiments/custom-shader-globe.ee.js",
+          "filename": "custom-shader-globe.ee.js"
+        },
+        {
           "id": "multiple-maps",
           "title": "Multiple maps",
           "summary": "Recovered ui.Map demo that opens separate Alps and Patagonia map tabs.",

@@ -20,6 +20,12 @@ interactive Console widgets, styled App pages, map overlays, ordinary and
 angled split maps, linked-map comparisons, and embedded charts; other focused
 examples remain in the named groups that follow.
 
+The **Map Experiments** group includes projection-aware globe examples for
+dynamic compute-pixel coloring and script-defined shader expressions. The
+**Animated wind field** Studio basics example demonstrates both arrow and
+particle vector-field renderers on the globe; toggle its layers to compare
+them without rerunning the script.
+
 ## Validate changes
 
 Run the validator before pushing changes to `master`:
