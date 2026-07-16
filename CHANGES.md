@@ -3,7 +3,8 @@
 ## Unreleased
 
 - Updated the globe wind arrows to use the uniform equal-area distribution,
-  preventing the Mercator grid from clustering arrows near the poles.
+  preventing the Mercator grid from clustering arrows near the poles. The
+  example now also documents its automatic zoom-adaptive density.
 
 - Added globe examples for dynamic compute-pixel rendering and constrained
   script-defined shader expressions, and updated the animated ERA5 wind example

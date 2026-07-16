@@ -43,7 +43,7 @@
         {
           "id": "animated-wind-field",
           "title": "Animated wind field",
-          "summary": "Renders ERA5 particles and equal-area globe arrows without polar clustering.",
+          "summary": "Renders ERA5 particles and zoom-adaptive equal-area globe arrows without polar clustering.",
           "path": "catalog/examples/animated-wind-field.ee.js",
           "filename": "animated-wind-field.ee.js"
         },

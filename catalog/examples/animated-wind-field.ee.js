@@ -45,6 +45,7 @@ Map.addLayer(globalWind, {
   palette: ["#00d4ff", "#29ff87", "#ffe14a", "#ff4d3d"],
   interpolation: "bilinear",
   arrowPlacement: "relative",
+  // Equal-area anchors automatically become denser at higher map zoom levels.
   arrowDistribution: "uniform",
   arrowSpacing: 52,
   arrowWidth: 2.5,
