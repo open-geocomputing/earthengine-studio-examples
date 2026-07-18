@@ -5,6 +5,7 @@ Thumbs.db
 node_modules/
 coverage/
 .cache/
+.tmp/
 .idea/
 .vscode/
 __pycache__/

@@ -1,5 +1,14 @@
 # Earth Engine Studio examples
 
+> [!IMPORTANT]
+> **Demonstration code—not a scientific reference.** The code and scenarios in
+> this repository were automatically generated to showcase and test the
+> functionality of the Earth Engine Studio code editor. They have not been
+> peer-reviewed or validated as scientific methods, operational products, or
+> decision-making tools. Before using any example for research or real-world
+> analysis, independently verify its datasets, assumptions, algorithms,
+> parameters, results, and fitness for your purpose.
+
 This repository is the public, runtime-loaded example catalog for
 [Earth Engine Studio](https://github.com/open-geocomputing/earthengine-studio-editor).
 Studio reads `manifest.json` from the public `master` branch and fetches an
@@ -31,7 +40,7 @@ as learning:
 - **Analysis Labs** covers click-driven spectral plots, cloud masks, change
   indices, supervised classification, and multi-region charts.
 - **Complete Workflows** connects maps and figures to export tasks and includes
-  a JavaScript entrypoint backed by a Python analysis module.
+  a JavaScript entrypoint backed by a local analysis module.
 
 The hazard examples are reproducible demonstrations built from historical
 public data. They are educational analyses, not operational emergency-response

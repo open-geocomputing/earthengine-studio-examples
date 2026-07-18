@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+- Added a prominent repository disclaimer explaining that the automatically
+  generated examples demonstrate editor functionality and are not validated
+  scientific methods, operational products, or decision-making tools.
 - Reworked Cloud Mask Shootout around a deliberately cloudy, snow-free Amazon
   scene and a direct raw-versus-masked wipe that removes SCL cloud and shadow
   classes without presenting snow removal as cloud masking.
@@ -23,7 +26,7 @@
   comparison, Landsat change indices, supervised Sentinel-2 classification,
   and multi-region vegetation histories.
 - Added a satellite movie export example and a reproducible research example
-  combining a JavaScript entrypoint, Python module, Earth Engine map, Plotly
+  combining a JavaScript entrypoint, local module, Earth Engine map, Plotly
   figure, Console summary, and reviewable CSV task.
 - Added repository ignore rules and documented catalog groups, safety scope,
   screenshot conventions, and complete syntax-validation commands.
