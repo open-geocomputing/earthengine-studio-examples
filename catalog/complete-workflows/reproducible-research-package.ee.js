@@ -1,6 +1,6 @@
 /* global ee, Map, Export, print, require, ui */
 // Reproducible Research Package — modules, Map, Plotly, Console, and export.
-var statistics = require("./research-summary.ee.py");
+var statistics = require("./research-summary.ee.js");
 var monthlyNdvi = [0.31, 0.34, 0.42, 0.55, 0.67, 0.74, 0.78, 0.73, 0.61, 0.49, 0.38, 0.32];
 var summary = statistics.summarize(monthlyNdvi);
 var region = ee.Geometry.Rectangle([11.15, 47.05, 11.65, 47.45], null, false);

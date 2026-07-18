@@ -4,6 +4,7 @@ Thumbs.db
 .env.*
 node_modules/
 coverage/
+.cache/
 .idea/
 .vscode/
 __pycache__/

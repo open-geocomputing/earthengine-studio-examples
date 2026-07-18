@@ -289,7 +289,7 @@
         {
           "id": "cloud-mask-shootout",
           "title": "Cloud Mask Shootout",
-          "summary": "Compares lenient and strict Sentinel-2 scene-class masks with a linked wipe.",
+          "summary": "Wipes between a deliberately cloudy tropical Sentinel-2 scene and its SCL cloud-and-shadow mask.",
           "path": "catalog/analysis-labs/cloud-mask-shootout.ee.js",
           "filename": "cloud-mask-shootout.ee.js"
         },
@@ -330,7 +330,7 @@
         {
           "id": "reproducible-research-package",
           "title": "Reproducible Research Package",
-          "summary": "Combines a Python module, Earth Engine map, Plotly figure, Console summary, and CSV task.",
+          "summary": "Combines a local module, Earth Engine map, Plotly figure, Console summary, and CSV task.",
           "path": "catalog/complete-workflows/reproducible-research-package.ee.js",
           "filename": "reproducible-research-package.ee.js"
         }

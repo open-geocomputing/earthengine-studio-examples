@@ -2,6 +2,16 @@
 
 ## Unreleased
 
+- Reworked Cloud Mask Shootout around a deliberately cloudy, snow-free Amazon
+  scene and a direct raw-versus-masked wipe that removes SCL cloud and shadow
+  classes without presenting snow removal as cloud masking.
+- Changed the Classification Studio Plotly figure into an equal-height
+  categorical palette so Forest remains visible and class codes no longer look
+  like quantities or ranks.
+- Fixed the Reproducible Research Package by using a portable local JavaScript
+  summary module, avoiding the runtime's non-extensible Python proxy error while
+  preserving the multi-file reproducible workflow.
+
 - Expanded the runtime catalog from 42 to 62 runnable examples across five new
   groups: Hazards & Response, Climate & Water, Land Change, Analysis Labs, and
   Complete Workflows.

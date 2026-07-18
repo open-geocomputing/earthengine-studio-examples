@@ -31,7 +31,19 @@ Map.addLayer(samples, {color: "ffffff", pointSize: 3}, "Training and testing sam
 print("Validation confusion matrix", matrix);
 print("Validation accuracy", matrix.accuracy());
 ui.Plotly({
-  name: "Classifier summary",
-  data: [{type: "bar", x: ["Forest", "Cropland", "Built", "Water"], y: [0, 1, 2, 3], marker: {color: ["#166534", "#facc15", "#ef4444", "#2563eb"]}}],
-  layout: {title: {text: "Classification legend"}, yaxis: {title: {text: "Class value"}}}
+  name: "Classification palette",
+  data: [{
+    type: "bar",
+    x: ["Forest", "Cropland", "Built", "Water"],
+    y: [1, 1, 1, 1],
+    marker: {color: ["#166534", "#facc15", "#ef4444", "#2563eb"]},
+    hovertemplate: "<b>%{x}</b><extra></extra>"
+  }],
+  layout: {
+    title: {text: "Classification palette"},
+    yaxis: {visible: false, range: [0, 1.08], fixedrange: true},
+    xaxis: {fixedrange: true},
+    bargap: 0.16,
+    showlegend: false
+  }
 }).show();

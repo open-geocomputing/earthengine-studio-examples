@@ -58,6 +58,14 @@ Some examples intentionally exercise WebGL2, Pyodide, authenticated Earth
 Engine computation, or browser folder access. Their source comments identify
 the interaction or capability to inspect.
 
+The **Cloud Mask Shootout** intentionally selects a cloudy, snow-free tropical
+scene and wipes from the raw observation to an SCL cloud-and-shadow mask. The
+**Classification Studio** figure is a categorical color palette with equal
+swatches; bar height does not imply class quantity or rank.
+
+The **Reproducible Research Package** uses a local JavaScript summary module so
+the multi-file workflow remains portable when it is loaded from the catalog.
+
 ## Validate changes
 
 Run the validator before pushing changes to `master`:
