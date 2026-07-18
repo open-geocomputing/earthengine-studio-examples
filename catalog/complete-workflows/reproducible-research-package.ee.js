@@ -29,5 +29,5 @@ var report = ee.FeatureCollection([ee.Feature(region.centroid(), {
   source: "Earth Engine Studio reproducible research example"
 })]);
 Export.table.toDrive({collection: report, description: "studio_research_summary", fileFormat: "CSV"});
-print("Python summary", summary);
+print("Module summary", summary);
 print("Workflow", "Map and Plotly are open; a reviewable CSV task is ready in Tasks.");
