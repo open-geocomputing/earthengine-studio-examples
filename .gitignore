@@ -1,9 +1,13 @@
 .DS_Store
 Thumbs.db
+.env
+.env.*
 node_modules/
 coverage/
 .idea/
 .vscode/
+__pycache__/
+*.py[cod]
 *.log
 catalog-validation-debug*.json
 globe-layer-debug*.json
@@ -12,3 +16,4 @@ uniform-arrow-debug*.json
 uniform-arrow-debug*.png
 uniform-arrow-zoom-density-debug*.json
 uniform-arrow-zoom-density-debug*.png
+screenshots/

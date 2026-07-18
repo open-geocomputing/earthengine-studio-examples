@@ -167,6 +167,176 @@
       ]
     },
     {
+      "id": "hazards-and-response",
+      "title": "Hazards & Response",
+      "examples": [
+        {
+          "id": "flood-radar",
+          "title": "FLOOD//RADAR",
+          "summary": "Maps the 2022 Sindh floods with Sentinel-1 change detection and an angled radar wipe.",
+          "path": "catalog/hazards-and-response/flood-radar.ee.js",
+          "filename": "flood-radar.ee.js"
+        },
+        {
+          "id": "fire-pulse",
+          "title": "FIRE//PULSE",
+          "summary": "Combines Sentinel-2 burn severity, VIIRS detections, ERA5 wind, and a linked impact App.",
+          "path": "catalog/hazards-and-response/fire-pulse.ee.js",
+          "filename": "fire-pulse.ee.js"
+        },
+        {
+          "id": "volcano-thermal-watch",
+          "title": "VOLCANO//THERMAL WATCH",
+          "summary": "Places MODIS thermal detections above Sentinel-2 imagery on a pitched Mount Etna terrain scene.",
+          "path": "catalog/hazards-and-response/volcano-thermal-watch.ee.js",
+          "filename": "volcano-thermal-watch.ee.js"
+        },
+        {
+          "id": "air-quality-globe",
+          "title": "AIR//QUALITY GLOBE",
+          "summary": "Renders Sentinel-5P NO2 with a custom globe shader and equal-area ERA5 wind arrows.",
+          "path": "catalog/hazards-and-response/air-quality-globe.ee.js",
+          "filename": "air-quality-globe.ee.js"
+        },
+        {
+          "id": "coast-time-machine",
+          "title": "COAST//TIME MACHINE",
+          "summary": "Compares 1990 and 2024 Landsat water extent across the Ganges-Brahmaputra delta.",
+          "path": "catalog/hazards-and-response/coast-time-machine.ee.js",
+          "filename": "coast-time-machine.ee.js"
+        }
+      ]
+    },
+    {
+      "id": "climate-and-water",
+      "title": "Climate & Water",
+      "examples": [
+        {
+          "id": "reservoir-pulse",
+          "title": "RESERVOIR//PULSE",
+          "summary": "Pairs a Lake Mead satellite map with two decades of annual surface-water measurements.",
+          "path": "catalog/climate-and-water/reservoir-pulse.ee.js",
+          "filename": "reservoir-pulse.ee.js"
+        },
+        {
+          "id": "snow-melt",
+          "title": "SNOW//MELT",
+          "summary": "Shows MODIS Alpine snow cover over 3D terrain and opens a daily seasonal chart.",
+          "path": "catalog/climate-and-water/snow-melt.ee.js",
+          "filename": "snow-melt.ee.js"
+        },
+        {
+          "id": "drought-signal",
+          "title": "DROUGHT//SIGNAL",
+          "summary": "Uses a compute-pixel shader and time series to explore European TerraClimate PDSI.",
+          "path": "catalog/climate-and-water/drought-signal.ee.js",
+          "filename": "drought-signal.ee.js"
+        },
+        {
+          "id": "alpine-pulse",
+          "title": "ALPINE//PULSE",
+          "summary": "Creates an angled Aletsch comparison between natural color and a snow-and-ice index.",
+          "path": "catalog/climate-and-water/alpine-pulse.ee.js",
+          "filename": "alpine-pulse.ee.js"
+        },
+        {
+          "id": "blue-planet",
+          "title": "BLUE//PLANET",
+          "summary": "Animates HYCOM surface currents above a shader-colored sea-surface-temperature globe.",
+          "path": "catalog/climate-and-water/blue-planet.ee.js",
+          "filename": "blue-planet.ee.js"
+        }
+      ]
+    },
+    {
+      "id": "land-change",
+      "title": "Land Change",
+      "examples": [
+        {
+          "id": "forest-loss-detective",
+          "title": "FOREST//LOSS DETECTIVE",
+          "summary": "Maps annual Hansen forest loss in Rondonia and charts the affected area by year.",
+          "path": "catalog/land-change/forest-loss-detective.ee.js",
+          "filename": "forest-loss-detective.ee.js"
+        },
+        {
+          "id": "city-night-shift",
+          "title": "CITY//NIGHT SHIFT",
+          "summary": "Links a Sentinel-2 daylight map to a glowing VIIRS night-light portrait of Cairo.",
+          "path": "catalog/land-change/city-night-shift.ee.js",
+          "filename": "city-night-shift.ee.js"
+        },
+        {
+          "id": "coral-reef-lens",
+          "title": "CORAL//REEF LENS",
+          "summary": "Wipes between Sentinel-2 reef imagery and Allen Coral Atlas benthic habitat.",
+          "path": "catalog/land-change/coral-reef-lens.ee.js",
+          "filename": "coral-reef-lens.ee.js"
+        }
+      ]
+    },
+    {
+      "id": "analysis-labs",
+      "title": "Analysis Labs",
+      "examples": [
+        {
+          "id": "spectral-signature-lab",
+          "title": "Spectral Signature Lab",
+          "summary": "Turns map clicks into resolved Sentinel-2 band profiles in native Plotly tabs.",
+          "path": "catalog/analysis-labs/spectral-signature-lab.ee.js",
+          "filename": "spectral-signature-lab.ee.js"
+        },
+        {
+          "id": "cloud-mask-shootout",
+          "title": "Cloud Mask Shootout",
+          "summary": "Compares lenient and strict Sentinel-2 scene-class masks with a linked wipe.",
+          "path": "catalog/analysis-labs/cloud-mask-shootout.ee.js",
+          "filename": "cloud-mask-shootout.ee.js"
+        },
+        {
+          "id": "change-detection-workbench",
+          "title": "Change Detection Workbench",
+          "summary": "Provides toggleable NDVI, NDWI, and NBR change layers from annual Landsat composites.",
+          "path": "catalog/analysis-labs/change-detection-workbench.ee.js",
+          "filename": "change-detection-workbench.ee.js"
+        },
+        {
+          "id": "classification-studio",
+          "title": "Classification Studio",
+          "summary": "Trains a Sentinel-2 random forest, maps four classes, and reports validation accuracy.",
+          "path": "catalog/analysis-labs/classification-studio.ee.js",
+          "filename": "classification-studio.ee.js"
+        },
+        {
+          "id": "multi-region-comparison",
+          "title": "Multi-Region Comparison",
+          "summary": "Compares three years of MODIS vegetation histories across Vienna, Paris, and Madrid.",
+          "path": "catalog/analysis-labs/multi-region-comparison.ee.js",
+          "filename": "multi-region-comparison.ee.js"
+        }
+      ]
+    },
+    {
+      "id": "complete-workflows",
+      "title": "Complete Workflows",
+      "examples": [
+        {
+          "id": "satellite-movie-factory",
+          "title": "Satellite Movie Factory",
+          "summary": "Builds a year of colored NDVI frames and registers a reviewable video export task.",
+          "path": "catalog/complete-workflows/satellite-movie-factory.ee.js",
+          "filename": "satellite-movie-factory.ee.js"
+        },
+        {
+          "id": "reproducible-research-package",
+          "title": "Reproducible Research Package",
+          "summary": "Combines a Python module, Earth Engine map, Plotly figure, Console summary, and CSV task.",
+          "path": "catalog/complete-workflows/reproducible-research-package.ee.js",
+          "filename": "reproducible-research-package.ee.js"
+        }
+      ]
+    },
+    {
       "id": "python-and-interop",
       "title": "Python & Interop",
       "examples": [

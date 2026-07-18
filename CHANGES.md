@@ -2,6 +2,22 @@
 
 ## Unreleased
 
+- Expanded the runtime catalog from 42 to 62 runnable examples across five new
+  groups: Hazards & Response, Climate & Water, Land Change, Analysis Labs, and
+  Complete Workflows.
+- Added screenshot-oriented historical stories for radar flooding, wildfire
+  impact, volcano thermal activity, atmospheric NO2, coastal movement,
+  reservoir history, Alpine snow and ice, drought, ocean currents, forest loss,
+  city lights, and coral habitat.
+- Added focused analysis labs for click-driven spectral signatures, cloud-mask
+  comparison, Landsat change indices, supervised Sentinel-2 classification,
+  and multi-region vegetation histories.
+- Added a satellite movie export example and a reproducible research example
+  combining a JavaScript entrypoint, Python module, Earth Engine map, Plotly
+  figure, Console summary, and reviewable CSV task.
+- Added repository ignore rules and documented catalog groups, safety scope,
+  screenshot conventions, and complete syntax-validation commands.
+
 - Updated the globe wind arrows to use the uniform equal-area distribution,
   preventing the Mercator grid from clustering arrows near the poles. The
   example now also documents its automatic zoom-adaptive density.
