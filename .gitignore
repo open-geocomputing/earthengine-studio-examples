@@ -12,6 +12,7 @@ __pycache__/
 *.py[cod]
 *.log
 catalog-validation-debug*.json
+corine-legend-debug*.png
 globe-layer-debug*.json
 globe-layer-debug*.png
 uniform-arrow-debug*.json

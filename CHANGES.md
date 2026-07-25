@@ -2,6 +2,11 @@
 
 ## Unreleased
 
+- Added a CORINE UI App that passes a homogeneous
+  `COPERNICUS/CORINE/V20/100m` ImageCollection to `ui.Legend`, demonstrating
+  automatic 44-class value, name, and palette discovery and the explicit
+  tooltip-description API.
+
 - Added a prominent repository disclaimer explaining that the automatically
   generated examples demonstrate editor functionality and are not validated
   scientific methods, operational products, or decision-making tools.

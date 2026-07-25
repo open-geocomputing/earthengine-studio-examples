@@ -23,11 +23,12 @@ example only when a user opens it.
 - `scripts/validate-manifest.mjs` checks catalog metadata and referenced files
   without third-party dependencies.
 
-The catalog currently contains 62 entrypoints. **Studio basics** contains the
+The catalog currently contains 63 entrypoints. **Studio basics** contains the
 general map, collection, chart, and download examples. **UI Apps** progresses
 from Console widgets through styled pages, map overlays, ordinary and angled
-split maps, linked comparisons, and embedded charts. **Map Experiments** covers
-globe, terrain, compute-pixel, shader, multi-map, and vector-field rendering.
+split maps, linked comparisons, metadata-driven legends, and embedded charts.
+**Map Experiments** covers globe, terrain, compute-pixel, shader, multi-map,
+and vector-field rendering.
 
 Five story-oriented groups make the catalog useful for demonstrations as well
 as learning:

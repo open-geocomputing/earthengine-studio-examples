@@ -103,6 +103,13 @@
           "filename": "angled-split-panel-app.ee.js"
         },
         {
+          "id": "ui-apps-corine-legend",
+          "title": "CORINE metadata legend",
+          "summary": "Builds a 44-class map legend automatically from homogeneous ImageCollection metadata.",
+          "path": "catalog/ui-apps/corine-legend-app.ee.js",
+          "filename": "corine-legend-app.ee.js"
+        },
+        {
           "id": "ui-apps-chart-dashboard",
           "title": "Embedded chart dashboard",
           "summary": "Embeds a Plotly chart in an App and routes point clicks back to the Worker.",
