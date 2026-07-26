@@ -1,8 +1,10 @@
 // Interactive showcase for Studio's special cartographic display overlays.
-// These are viewport/map annotations, not Map.addLayer entries.
+// These are viewport/map annotations, not Map.addLayer entries. In MapLibre,
+// the grid, labels, text, and engraved creatures render in the geographic
+// WebGL scene so they curve or drape correctly in globe and 3D modes.
 ui.App.setHeader({
   title: "Cartographic display overlays",
-  subtitle: "Orientation, graticule, WebGL scale styles, and map decorations"
+  subtitle: "WebGL globe grid, full compass rose, scale styles, and engraved creatures"
 });
 
 ui.App.setCss([
@@ -35,7 +37,7 @@ var display = {
     visible: true,
     position: "top-center",
     style: "compass",
-    size: 54
+    size: 78
   },
   graticule: {
     visible: true,
@@ -57,10 +59,10 @@ var display = {
     maxSize: 150
   },
   decorations: [
-    {kind: "dragon", coordinates: [11.4, 47.2], size: 52},
-    {kind: "lion", coordinates: [7.4, 46.9], size: 42},
+    {kind: "dragon", coordinates: [11.4, 47.2], size: 108},
+    {kind: "lion", coordinates: [7.4, 46.9], size: 82},
     // "snake" is accepted as a friendly alias of "serpent".
-    {kind: "snake", coordinates: [14.5, 47.0], size: 42},
+    {kind: "snake", coordinates: [14.5, 47.0], size: 88},
     {
       kind: "text",
       coordinates: [9.5, 45.8],

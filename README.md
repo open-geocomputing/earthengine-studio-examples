@@ -69,6 +69,12 @@ Some examples intentionally exercise WebGL2, Pyodide, authenticated Earth
 Engine computation, or browser folder access. Their source comments identify
 the interaction or capability to inspect.
 
+The **Cartographic Display Overlays** UI App demonstrates Studio's native
+MapLibre cartography path: a complete compass rose, zoom-adaptive geographic
+grid, engraved dragon/lion/serpent image layers, and text decorations that
+remain outside `Map.addLayer(...)` while following globe curvature and pitched
+3D terrain.
+
 The **Cloud Mask Shootout** intentionally selects a cloudy, snow-free tropical
 scene and wipes from the raw observation to an SCL cloud-and-shadow mask. The
 **Classification Studio** figure is a categorical color palette with equal
