@@ -82,6 +82,13 @@
           "filename": "map-overlay-app.ee.js"
         },
         {
+          "id": "ui-apps-cartographic-display-overlays",
+          "title": "Cartographic display overlays",
+          "summary": "Explores rotating north symbols, adaptive graticules, WebGL scale styles, units, layouts, and decorative map annotations.",
+          "path": "catalog/ui-apps/cartographic-display-overlays.ee.js",
+          "filename": "cartographic-display-overlays.ee.js"
+        },
+        {
           "id": "ui-apps-split-map",
           "title": "Split-map App",
           "summary": "Composes two independent ui.Map widgets in a horizontal SplitPanel.",

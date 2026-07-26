@@ -2,6 +2,14 @@
 
 ## Unreleased
 
+- Added an interactive Cartographic Display Overlays App covering
+  `Map.setDisplayOptions(...)`: bearing-aware arrow/compass/star indicators,
+  adaptive border/axis graticule labels, every WebGL scale style, unit system,
+  horizontal/vertical layout, configurable placement and unit side,
+  pointer-aware scale calculation, globe/3D switching, and dragon, lion,
+  snake, and custom text decorations. The example keeps these annotations
+  separate from `Map.addLayer`.
+
 - Added a CORINE UI App that passes a homogeneous
   `COPERNICUS/CORINE/V20/100m` ImageCollection to `ui.Legend`, demonstrating
   automatic 44-class value, name, and palette discovery and the explicit
