@@ -182,4 +182,78 @@ Map.addLayer(remotePeaks, {
   featureMinZoomProperty: "visible_from",
 }, "Earth Engine mountain symbols");
 
+// A catalog-backed collection demonstrates the same loader with a larger,
+// globally distributed dataset. Style properties are derived server-side, but
+// the points and labels are rendered by MapLibre in the browser.
+var fuelColors = ee.Dictionary({
+  Coal: "#2f3133",
+  Oil: "#7a4b22",
+  Gas: "#9f68aa",
+  Hydro: "#1976a8",
+  Nuclear: "#c9363e",
+  Solar: "#ef8b24",
+  Waste: "#74518f",
+  Wind: "#4a91bd",
+  Geothermal: "#d98947",
+  Biomass: "#3f8b3d",
+});
+
+var powerPlants = ee.FeatureCollection("WRI/GPPD/power_plants")
+  .filter(ee.Filter.notNull(["capacitymw", "name", "fuel1"]))
+  .map(function(plant) {
+    var capacity = ee.Number(plant.get("capacitymw"));
+    var fuel = ee.String(plant.get("fuel1"));
+    var visibleFrom = ee.Number(ee.Algorithms.If(
+      capacity.gte(1000),
+      4,
+      ee.Algorithms.If(capacity.gte(500), 6, 9)
+    ));
+    return plant.set({
+      display_label: ee.String(plant.get("name"))
+        .cat("\n")
+        .cat(capacity.format("%.0f"))
+        .cat(" MW · ")
+        .cat(fuel),
+      marker_size: capacity.sqrt().divide(2.5).add(7).min(42),
+      marker_color: fuelColors.get(fuel, "#65727a"),
+      label_side: ee.Algorithms.If(
+        fuel.compareTo("Hydro").eq(0),
+        "below",
+        "above"
+      ),
+      visible_from: visibleFrom,
+    });
+  });
+
+Map.addLayer(powerPlants, {
+  renderer: "symbols",
+  symbol: {
+    type: "circle",
+    size: 10,
+    sizeProperty: "marker_size",
+    color: "#65727a",
+    colorProperty: "marker_color",
+  },
+  label: {
+    property: "display_label",
+    position: "above",
+    positionProperty: "label_side",
+    fontFamily: "sans",
+    fontSize: 12,
+    scale: "zoom",
+    color: "#19242a",
+    effect: {
+      type: "halo",
+      color: "#f7f2e8",
+      width: 1.5,
+    },
+  },
+  idProperty: "gppd_idnr",
+  minZoom: 4,
+  maxZoom: 18,
+  featureMinZoomProperty: "visible_from",
+  allowOverlap: false,
+}, "WRI power plants by fuel and capacity");
+
 print("Client symbols", "Pan across tile boundaries and rotate the pitched map.");
+print("WRI power plants", powerPlants.limit(5));

@@ -132,7 +132,7 @@
         {
           "id": "client-side-point-symbols",
           "title": "Client-side point symbols",
-          "summary": "Combines local GeoJSON and Earth Engine point collections with MapLibre mountain symbols, multiline labels, property overrides, zoom visibility, effects, and screen-stable orientation.",
+          "summary": "Combines local GeoJSON, literal Earth Engine points, and WRI global power plants with MapLibre symbols, multiline labels, property overrides, zoom visibility, effects, and screen-stable orientation.",
           "path": "catalog/map-experiments/client-side-point-symbols.ee.js",
           "filename": "client-side-point-symbols.ee.js"
         },

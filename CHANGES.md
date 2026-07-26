@@ -6,7 +6,9 @@
   and Earth Engine collections, circles, text-only points, antique mountain
   markers, every label anchor, multiline text, per-feature style and zoom
   overrides, scaling, outline, halo, shadow, and screen-stable orientation on
-  a rotated and pitched MapLibre map.
+  a rotated and pitched MapLibre map. The Earth Engine portion now includes
+  `WRI/GPPD/power_plants`, with fuel-driven colors, capacity-driven sizes and
+  visibility thresholds, and multiline plant labels.
 
 - Added an interactive Cartographic Display Overlays App covering
   `Map.setDisplayOptions(...)`: bearing-aware arrow/full-compass-rose/star

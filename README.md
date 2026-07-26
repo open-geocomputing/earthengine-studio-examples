@@ -60,7 +60,10 @@ The **Client-side point symbols** experiment passes both local GeoJSON and an
 `ee.FeatureCollection` to `Map.addLayer(..., {renderer: "symbols"})`. It covers
 the five label anchors, multiline text, zoom visibility, property-driven
 mountain sizes and colors, fixed and zoom-scaled fonts, outline, halo, and
-shadow effects on a rotated and pitched MapLibre map.
+shadow effects on a rotated and pitched MapLibre map. Its catalog-backed layer
+uses `WRI/GPPD/power_plants`, deriving marker size from `capacitymw`, color from
+`fuel1`, labels from `name`, and visibility thresholds from generating
+capacity.
 
 ## Demonstration and screenshot conventions
 
