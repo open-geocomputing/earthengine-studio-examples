@@ -13,6 +13,8 @@ ui.App.setCss([
   ".display-field { gap: 3px; min-width: 112px; }",
   ".display-field-label { color: #59636d; font-size: 10px; font-weight: 700; text-transform: uppercase; }",
   ".display-field select { min-width: 112px; }",
+  ".display-field input { min-width: 112px; }",
+  ".grid-style-slider { min-width: 145px; }",
   ".display-toggle { min-width: 105px; }",
   ".bearing-field { min-width: 230px; flex: 1; }",
   ".bearing-readout { min-width: 92px; color: #39424c; font-size: 12px; font-weight: 700; }"
@@ -44,6 +46,7 @@ var display = {
     labels: "border",
     color: "#263746",
     labelColor: "#17212b",
+    labelSize: 12,
     opacity: 0.48,
     lineWidth: 1
   },
@@ -106,6 +109,56 @@ var gridLabels = ui.Select({
     display.graticule.labels = labels;
     applyDisplay();
   }
+});
+
+function updateHexColor(value, target) {
+  var color = String(value).trim();
+  if (!/^#(?:[0-9a-f]{3}|[0-9a-f]{6}|[0-9a-f]{8})$/i.test(color)) {
+    print("Grid colors use #RGB, #RRGGBB, or #RRGGBBAA.");
+    return;
+  }
+  display.graticule[target] = color;
+  applyDisplay();
+}
+
+var gridLineColor = ui.Textbox({
+  placeholder: "#RRGGBB",
+  value: display.graticule.color,
+  onChange: function (color) {
+    updateHexColor(color, "color");
+  }
+});
+
+var gridLabelColor = ui.Textbox({
+  placeholder: "#RRGGBB",
+  value: display.graticule.labelColor,
+  onChange: function (color) {
+    updateHexColor(color, "labelColor");
+  }
+});
+
+var gridLineWidth = ui.Slider({
+  min: 0.25,
+  max: 6,
+  value: display.graticule.lineWidth,
+  step: 0.25,
+  onSlide: function (width) {
+    display.graticule.lineWidth = width;
+    applyDisplay();
+  },
+  className: "grid-style-slider"
+});
+
+var gridLabelSize = ui.Slider({
+  min: 8,
+  max: 32,
+  value: display.graticule.labelSize,
+  step: 1,
+  onSlide: function (size) {
+    display.graticule.labelSize = size;
+    applyDisplay();
+  },
+  className: "grid-style-slider"
 });
 
 var scaleStyle = ui.Select({
@@ -245,6 +298,10 @@ var controls = ui.Panel({
     field("View", viewStyle),
     field("North symbol", indicatorStyle),
     field("Grid labels", gridLabels),
+    field("Line color", gridLineColor),
+    field("Line width (px)", gridLineWidth),
+    field("Text color", gridLabelColor),
+    field("Text size (px)", gridLabelSize),
     field("Scale style", scaleStyle),
     field("Units", scaleUnits),
     field("Layout", scaleOrientation),

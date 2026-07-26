@@ -9,7 +9,8 @@
   side, pointer-aware scale calculation, globe/3D switching, and engraved
   dragon, lion, snake, and custom text decorations. It demonstrates that
   MapLibre renders geographic overlays in its WebGL scene while keeping them
-  separate from `Map.addLayer`.
+  separate from `Map.addLayer`. Live controls independently configure the
+  graticule line color/width and coordinate-label color/size.
 
 - Added a CORINE UI App that passes a homogeneous
   `COPERNICUS/CORINE/V20/100m` ImageCollection to `ui.Legend`, demonstrating

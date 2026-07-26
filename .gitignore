@@ -22,4 +22,6 @@ uniform-arrow-zoom-density-debug*.png
 cartographic-display-overlays-debug*.json
 cartographic-display-overlays-debug*.png
 cartographic-display-assets-debug*.png
+cartographic-display-style-debug*.png
+cartographic-display-style-debug*.json
 screenshots/

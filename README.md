@@ -73,7 +73,8 @@ The **Cartographic Display Overlays** UI App demonstrates Studio's native
 MapLibre cartography path: a complete compass rose, zoom-adaptive geographic
 grid, engraved dragon/lion/serpent image layers, and text decorations that
 remain outside `Map.addLayer(...)` while following globe curvature and pitched
-3D terrain.
+3D terrain. Its live controls independently adjust grid-line color/width and
+coordinate-label color/size.
 
 The **Cloud Mask Shootout** intentionally selects a cloudy, snow-free tropical
 scene and wipes from the raw observation to an SCL cloud-and-shadow mask. The
