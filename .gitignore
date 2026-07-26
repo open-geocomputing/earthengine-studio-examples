@@ -28,4 +28,6 @@ cartographic-display-style-debug*.png
 cartographic-display-style-debug*.json
 client-symbol-debug*.json
 client-symbol-debug*.png
+maplibre-6-example-debug*.json
+maplibre-6-example-debug*.png
 screenshots/

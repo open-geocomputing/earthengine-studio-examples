@@ -195,6 +195,54 @@
       ]
     },
     {
+      "id": "maplibre-6",
+      "title": "MapLibre 6",
+      "examples": [
+        {
+          "id": "maplibre-6-relief-and-contours",
+          "title": "Relief and contour lines",
+          "summary": "Combines five-method hillshade, zoom-adaptive metric contours, Hybrid imagery, and Earth Engine 3D terrain.",
+          "path": "catalog/maplibre-6/relief-and-contours.ee.js",
+          "filename": "relief-and-contours.ee.js"
+        },
+        {
+          "id": "maplibre-6-heatmap-and-pulsing-icons",
+          "title": "Heatmap and pulsing icons",
+          "summary": "Renders weighted local GeoJSON as a heatmap and reduced-motion-aware animated point icons.",
+          "path": "catalog/maplibre-6/heatmap-and-pulsing-icons.ee.js",
+          "filename": "heatmap-and-pulsing-icons.ee.js"
+        },
+        {
+          "id": "maplibre-6-animated-routes",
+          "title": "Animated routes",
+          "summary": "Progressively reveals LineString and MultiLineString paths with layer-card and script playback controls.",
+          "path": "catalog/maplibre-6/animated-routes.ee.js",
+          "filename": "animated-routes.ee.js"
+        },
+        {
+          "id": "maplibre-6-image-collection-timeline",
+          "title": "ImageCollection timeline",
+          "summary": "Prepares a bounded MODIS collection for timestamped playback with frame, speed, loop, and callback controls.",
+          "path": "catalog/maplibre-6/image-collection-timeline.ee.js",
+          "filename": "image-collection-timeline.ee.js"
+        },
+        {
+          "id": "maplibre-6-camera-and-three-map-sync",
+          "title": "Camera and three-map sync",
+          "summary": "Demonstrates flyTo, easeTo, orbit control, and variadic center/zoom/bearing/pitch synchronization.",
+          "path": "catalog/maplibre-6/camera-and-three-map-sync.ee.js",
+          "filename": "camera-and-three-map-sync.ee.js"
+        },
+        {
+          "id": "maplibre-6-hybrid-globe-and-proxy",
+          "title": "Hybrid globe and MapLibre proxy",
+          "summary": "Combines Hybrid globe terrain with ordered raw sources, layers, state reads, and serializable click events.",
+          "path": "catalog/maplibre-6/hybrid-globe-and-proxy.ee.js",
+          "filename": "hybrid-globe-and-proxy.ee.js"
+        }
+      ]
+    },
+    {
       "id": "hazards-and-response",
       "title": "Hazards & Response",
       "examples": [

@@ -2,6 +2,12 @@
 
 ## Unreleased
 
+- Added a six-script MapLibre 6 group covering DEM hillshade methods, worker
+  contours, heatmaps, pulsing icons, animated LineString/MultiLineString paths,
+  bounded Earth Engine image timelines and playback handles, fly/ease/orbit
+  camera controls, variadic three-map synchronization, Hybrid globe terrain,
+  and ordered serializable `Map.getMapLibre()` operations.
+
 - Added a Continuous Color Bars UI App demonstrating a shared logarithmic
   `Map.addLayer` visualization, horizontal custom ticks and labels, vertical
   automatic ticks, value-side placement, titles, styles, and the mutable

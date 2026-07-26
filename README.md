@@ -23,13 +23,16 @@ example only when a user opens it.
 - `scripts/validate-manifest.mjs` checks catalog metadata and referenced files
   without third-party dependencies.
 
-The catalog currently contains 66 entrypoints. **Studio basics** contains the
+The catalog currently contains 72 entrypoints. **Studio basics** contains the
 general map, collection, chart, and download examples. **UI Apps** progresses
 from Console widgets through styled pages, ordinary and cartographic map
 overlays, ordinary and angled split maps, linked comparisons, metadata-driven
 legends, continuous linear/logarithmic color bars, and embedded charts.
 **Map Experiments** covers globe, terrain, compute-pixel, shader, multi-map,
-vector-field rendering, and client-side point symbols and labels.
+vector-field rendering, and client-side point symbols and labels. The dedicated
+**MapLibre 6** group demonstrates hillshade, contours, heatmaps, animated
+points, animated paths and image timelines, camera travel/orbits, three-map
+synchronization, Hybrid globe terrain, and safe raw MapLibre proxy operations.
 
 Five story-oriented groups make the catalog useful for demonstrations as well
 as learning:
