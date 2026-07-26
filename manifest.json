@@ -130,6 +130,13 @@
       "title": "Map Experiments",
       "examples": [
         {
+          "id": "client-side-point-symbols",
+          "title": "Client-side point symbols",
+          "summary": "Combines local GeoJSON and Earth Engine point collections with MapLibre mountain symbols, multiline labels, property overrides, zoom visibility, effects, and screen-stable orientation.",
+          "path": "catalog/map-experiments/client-side-point-symbols.ee.js",
+          "filename": "client-side-point-symbols.ee.js"
+        },
+        {
           "id": "sentinel-2-single-orbit-globe",
           "title": "Sentinel-2 orbit globe",
           "summary": "Recovered globe-view script using Map.setViewStyle from the dynamic map branch.",

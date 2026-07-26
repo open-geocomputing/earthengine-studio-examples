@@ -29,7 +29,7 @@ from Console widgets through styled pages, ordinary and cartographic map
 overlays, ordinary and angled split maps, linked comparisons, metadata-driven
 legends, and embedded charts.
 **Map Experiments** covers globe, terrain, compute-pixel, shader, multi-map,
-and vector-field rendering.
+vector-field rendering, and client-side point symbols and labels.
 
 Five story-oriented groups make the catalog useful for demonstrations as well
 as learning:
@@ -55,6 +55,12 @@ particle vector-field renderers on the globe. Its arrows use the uniform
 equal-area distribution instead of a Mercator grid and automatically increase
 their globe-wide density with zoom; toggle its layers to compare them without
 rerunning the script.
+
+The **Client-side point symbols** experiment passes both local GeoJSON and an
+`ee.FeatureCollection` to `Map.addLayer(..., {renderer: "symbols"})`. It covers
+the five label anchors, multiline text, zoom visibility, property-driven
+mountain sizes and colors, fixed and zoom-scaled fonts, outline, halo, and
+shadow effects on a rotated and pitched MapLibre map.
 
 ## Demonstration and screenshot conventions
 

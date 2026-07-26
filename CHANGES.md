@@ -2,6 +2,12 @@
 
 ## Unreleased
 
+- Added a Client-side point symbols Map Experiment demonstrating local GeoJSON
+  and Earth Engine collections, circles, text-only points, antique mountain
+  markers, every label anchor, multiline text, per-feature style and zoom
+  overrides, scaling, outline, halo, shadow, and screen-stable orientation on
+  a rotated and pitched MapLibre map.
+
 - Added an interactive Cartographic Display Overlays App covering
   `Map.setDisplayOptions(...)`: bearing-aware arrow/full-compass-rose/star
   indicators, adaptive border/axis graticule labels, every WebGL scale style,
