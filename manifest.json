@@ -117,6 +117,13 @@
           "filename": "corine-legend-app.ee.js"
         },
         {
+          "id": "ui-apps-color-bar",
+          "title": "Continuous color bars",
+          "summary": "Reuses logarithmic map visualization parameters in horizontal custom-tick and vertical automatic-tick color bars.",
+          "path": "catalog/ui-apps/color-bar-app.ee.js",
+          "filename": "color-bar-app.ee.js"
+        },
+        {
           "id": "ui-apps-chart-dashboard",
           "title": "Embedded chart dashboard",
           "summary": "Embeds a Plotly chart in an App and routes point clicks back to the Worker.",

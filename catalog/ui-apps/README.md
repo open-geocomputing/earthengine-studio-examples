@@ -22,7 +22,10 @@ These examples progress from a single printed widget to full App composition:
 8. `corine-legend-app.ee.js` creates a 44-class legend by reading standard
    values, names, and palette metadata from the first image in a homogeneous
    CORINE collection.
-9. `chart-dashboard.ee.js` embeds a Plotly chart and handles its click events in
+9. `color-bar-app.ee.js` reuses one logarithmic map visualization object in a
+   horizontal color bar with custom ticks and labels and a vertical color bar
+   with automatic ticks.
+10. `chart-dashboard.ee.js` embeds a Plotly chart and handles its click events in
    the script Worker.
 
-All nine are JavaScript-only and can open without loading the Python runtime.
+All ten are JavaScript-only and can open without loading the Python runtime.

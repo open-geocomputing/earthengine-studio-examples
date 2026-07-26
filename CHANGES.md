@@ -2,6 +2,11 @@
 
 ## Unreleased
 
+- Added a Continuous Color Bars UI App demonstrating a shared logarithmic
+  `Map.addLayer` visualization, horizontal custom ticks and labels, vertical
+  automatic ticks, value-side placement, titles, styles, and the mutable
+  `ui.ColorBar` API.
+
 - Added a Client-side point symbols Map Experiment demonstrating local GeoJSON
   and Earth Engine collections, circles, text-only points, antique mountain
   markers, every label anchor, multiline text, per-feature style and zoom
