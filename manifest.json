@@ -433,7 +433,7 @@
         {
           "id": "python-plotly",
           "title": "Plotly Python",
-          "summary": "Uses Plotly Express and an Earth Engine-backed ui.Plotly figure.",
+          "summary": "Uses signed-out Plotly Express and Studio ui.Plotly figures.",
           "path": "catalog/python-and-interop/plotly-python.ee.py",
           "filename": "plotly-python.ee.py"
         },
@@ -563,7 +563,7 @@
         {
           "id": "module-remote-repository-paths",
           "title": "Remote repository paths",
-          "summary": "Shows pinned GitHub and GitLab Python package roots.",
+          "summary": "Imports a Python package from a real public GitHub repository root.",
           "path": "catalog/modules/remote_repository_paths.ee.py",
           "filename": "remote_repository_paths.ee.py"
         },

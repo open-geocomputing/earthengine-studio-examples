@@ -81,6 +81,13 @@ Some examples intentionally exercise WebGL2, Pyodide, authenticated Earth
 Engine computation, or browser folder access. Their source comments identify
 the interaction or capability to inspect.
 
+Python examples that need Earth Engine authentication first check the runtime
+session. When Studio is signed out they print a concise sign-in instruction
+instead of producing an Earth Engine initialization traceback. The general
+Plotly.py and scientific-stack examples remain fully runnable while signed out,
+and the ordered interoperability step can also run independently with its
+documented fallback values.
+
 The **Cartographic Display Overlays** UI App demonstrates Studio's native
 MapLibre cartography path: a complete compass rose, zoom-adaptive geographic
 grid, engraved dragon/lion/serpent image layers, and text decorations that

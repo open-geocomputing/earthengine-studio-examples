@@ -1,11 +1,12 @@
 import sys
 
-# Replace these public example coordinates with repositories containing the
-# imported modules. Refs may be a branch, tag, or commit SHA.
-sys.path.append("gh:owner/repository@v1.2.0:/python")
-sys.path.insert(0, "gl:group/project@main:/python")
+# This public package root is trusted as part of the official example catalog.
+sys.path.insert(
+    0,
+    "gh:open-geocomputing/earthengine-studio-examples"
+    "@master:/catalog/modules/local_package",
+)
 
-from processing.indices import ndvi
 from terrain.filters import mask_clouds
 
-print(ndvi, mask_clouds)
+print("Remote Python function", mask_clouds)

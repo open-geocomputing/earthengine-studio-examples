@@ -2,6 +2,13 @@
 
 ## Unreleased
 
+- Audited every Python catalog entrypoint except OEEL. Authentication-dependent examples
+  now stop with a concise sign-in instruction while signed out, the general
+  Plotly example no longer unexpectedly invokes Earth Engine, the second
+  interoperability step runs safely before step 1, and the remote-package
+  example now uses a real public GitHub root instead of placeholder GitHub and
+  GitLab coordinates. OEEL remains outside this audit.
+
 - Added a six-script MapLibre 6 group covering DEM hillshade methods, worker
   contours, heatmaps, pulsing icons, animated LineString/MultiLineString paths,
   bounded Earth Engine image timelines and playback handles, fly/ease/orbit
