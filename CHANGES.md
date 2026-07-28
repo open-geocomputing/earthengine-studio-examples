@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+- Updated the animated wind-field example to use the canonical
+  `arrowPlacement: "map"` spelling for geographically anchored uniform globe
+  arrows.
+
 - Audited every Python catalog entrypoint except OEEL. Authentication-dependent examples
   now stop with a concise sign-in instruction while signed out, the general
   Plotly example no longer unexpectedly invokes Earth Engine, the second

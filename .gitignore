@@ -22,6 +22,8 @@ uniform-arrow-debug*.json
 uniform-arrow-debug*.png
 uniform-arrow-zoom-density-debug*.json
 uniform-arrow-zoom-density-debug*.png
+uniform-arrow-placement-debug*.json
+uniform-arrow-placement-debug*.png
 cartographic-display-overlays-debug*.json
 cartographic-display-overlays-debug*.png
 cartographic-display-assets-debug*.png
