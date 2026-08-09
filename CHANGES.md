@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+- Added a safe-by-default Source-located errors test entry with selectable
+  runtime, mapped callback, argument-type, missing-asset, mapped missing-band,
+  and bounded pixel-limit failures for Console-to-editor navigation QA.
+
 - Updated the animated wind-field example to use the canonical
   `arrowPlacement: "map"` spelling for geographically anchored uniform globe
   arrows.

@@ -465,6 +465,13 @@
       "title": "Tests",
       "examples": [
         {
+          "id": "source-located-errors",
+          "title": "Source-located errors",
+          "summary": "Triggers isolated runtime, mapped callback, type, asset, band, and pixel-limit diagnostics for Console-to-editor navigation testing.",
+          "path": "catalog/tests/source-located-errors.ee.js",
+          "filename": "source-located-errors.ee.js"
+        },
+        {
           "id": "local-collections-smoke",
           "title": "Collection operations",
           "summary": "Exercises local filter, date range, sort, limit, and aggregate.",

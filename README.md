@@ -23,7 +23,7 @@ example only when a user opens it.
 - `scripts/validate-manifest.mjs` checks catalog metadata and referenced files
   without third-party dependencies.
 
-The catalog currently contains 72 entrypoints. **Studio basics** contains the
+The catalog currently contains 73 entrypoints. **Studio basics** contains the
 general map, collection, chart, and download examples. **UI Apps** progresses
 from Console widgets through styled pages, ordinary and cartographic map
 overlays, ordinary and angled split maps, linked comparisons, metadata-driven
@@ -81,6 +81,13 @@ resolve, and keeps the relevant layer drawer or App control visible.
 Some examples intentionally exercise WebGL2, Pyodide, authenticated Earth
 Engine computation, or browser folder access. Their source comments identify
 the interaction or capability to inspect.
+
+The **Source-located errors** entry in the **Tests** group is safe by default.
+Change its `TEST_TO_RUN` value to run one intentional failure at a time. It
+covers direct and mapped-function runtime errors, Earth Engine argument types,
+missing assets, missing bands inside `ImageCollection.map`, and a bounded
+`maxPixels` failure. Each case documents the preferred expression highlight and
+the acceptable evaluation-call fallback.
 
 Python examples that need Earth Engine authentication first check the runtime
 session. When Studio is signed out they print a concise sign-in instruction
